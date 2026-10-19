@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+.header .nav-item{
+    padding: 0 20px;
+}
+.hero-section .hero-img{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 685px;
+    width: 100%;
+    background-image: url(../images/hero.jpg);
+    background-attachment: fixed;
+}
+.hero-section .hero-image-inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, .6);
+}
+.hero-section .he-image-inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 600px;
+    background: rgba(241, 249, 1, 0.6);
+    border-radius: 50%;
+}
+.hero-section .hero-content-inner{
+    font-size: 70px;
+    font-weight: bolder;
+}
+.bhero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+.bhero .bhero-img{
+    height: 60%;
+    width: 80%;
+    border-radius: 40px;
+    box-shadow: 2px 2px 5px #000;
+    overflow: hidden;
+}
+.bhero .bhero-img img{
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    transition: .5s;
+}
+.bhero .bhero-img img:hover{
+    transform: scale(1.1);
+}
+.bhero-section .bhero-content-up{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.bhero-section .bhero-phone{
+    cursor: pointer;
+}
+.bhero-section .fast-delivery{
+    box-shadow: 2px 2px 5px #000;
+}
+.menu-section .popular-menu{
+    padding: 20px 75px;
+}
+.fast-delivery{
+    cursor: pointer;
+    transition: 1s;
+    font-size: 20px;
+}
+.fast-delivery:hover{
+    font-size: 30px;
+    color: #ffd700;
+    background: #000;
+}
+.popular-menu{
+    cursor: pointer;
+    transition: 1s;
+    font-size: 28px;
+}
+.popular-menu:hover{
+    font-size: 35px;
+    color: #ffd700;
+    background: #000;
+}
+.menu-section .product{
+    cursor: pointer;
+    transition: 1s;
+}
+.menu-section .product:hover{
+    transform: translateX(10px);
+    color: #ffd700;
+    border-radius: 20px;
+    background: #000;
+    box-shadow: 2px 2px 5px #000;
+}
+.p-img{
+    overflow: hidden;
+}
+.pr-img:hover{
+    transition: 1s all;
+}
+.pr-img:hover{
+    overflow: hidden;
+    transform: scale(1.2);
+}
+.blog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blog .blog-img{
+    height: 90%;
+    width: 100%;
+    border-radius: 20px;
+    transition: 1s;
+    overflow: hidden;
+}
+.blog-img:hover{
+    box-shadow: 5px 5px 10px #000;
+}
+.blog .blog-img img{
+    height: 100%;
+    width: 100%;
+    transition: .8s;
+}
+.blog .blog-img img:hover{
+    transform: scale(1.1);
+}
+.item1 img{
+    border-radius: 10px;
+}
+.footer .footer-image{
+    height: 250px;
+    background-image: url(../images/foot.jpg);
+}
+.fupper{
+    background: rgb(17, 17, 17);
+    color: #fff;
+}
+.footer .booktable{
+    transition: .5s;
+}
+.fup{
+    cursor: pointer;
+    font-size: 35px;
+    transition: .5s;
+}
+.fup:hover{
+    font-size: 40px;
+    color: #ffd700;
+}
+.booktable{
+    color: #fff;
+}
+.booktable:hover:hover{
+    color: #ffd700;
+}
+.fbottom{
+    font-size: 30px;
+    cursor: pointer;
+    transition: .5s;
+}
+.fbottom:hover{
+    font-size: 35px;
+    color: #fff;
+}
+/* .item1{
+    overflow: hidden;
+}
+.slide:hover{
+    transition: .5s;
+    box-shadow: 3px 3px 5px #000;
+}
+.slide:hover{
+    transform: scale(1.4);
+    border-radius: 50%;
+} */
+ .review-section{
+    padding: 20px;
+    transition: 1s;
+ }
+ .review-section:hover{
+    color: #ffd700;
+    border-radius: 40px;
+    background: #000;
+ }
+ .card-blog{
+    cursor: pointer;
+ }
+/* menu section start */
+.menu-section .our-menu{
+    font-size: 80px;
+    font-weight: bolder;
+}
+.menu-section .menu-remark{
+    font-weight: bolder;
+}
+.menu-section .popular-menu{
+    padding: 20px 75px;
+}
+.menu-section .p-img img{
+    box-shadow: 5px 5px 10px #000;
+}
+.menu-section .product{
+    transition: 1s;
+}
+.menu-section .product:hover{
+    transform: translateX(12px);
+    border-radius: 20px;
+    box-shadow: 2px 2px 3px #000;
+}
+.card-img-top{
+    height: 100%;
+    width: 100%;
+    object-fit:fill;
+}
+/* menu section end */
+/* login section start */
+.login-section{
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000;
+}
+/* login section end */
+/* contact-section-start */
+.contact-section .contact-content{
+    font-size: 60px;
+    font-weight: bolder;
+}
+.contact-section .contact-form{
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000;
+}
+.contact-section .msg{
+    resize: none;
+}
+/* contact-section-end */
+/* about-section-start */
+.about-first-section .about{
+    font-size: 80px;
+    font-weight: bolder;
+}
+.about-first-section .about-luxury{
+    font-weight: bolder;
+}
+/* about-section-end */
